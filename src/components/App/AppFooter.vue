@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#303748] flex mx-auto px-[24px] pt-[40px] pb-[38px] mt-[64px] lg:(px-[64px] pr-0 mt-[80px])">
-    <div class="container max-w-[1280px] mx-auto flex justify-between">
+    <div class="container max-w-[1280px] mx-auto md:(flex justify-between)">
       <div class="flex-col md:w-1/2 lg:w-1/3">
         <a href="#" class="font-medium text-white flex text-[18px]">
           Главная

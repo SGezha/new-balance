@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-[24px] pr-[31px] mt-[70px] lg:(px-[128px] mt-[80px])">
+  <div class="container mx-auto px-[24px] pr-[31px] mt-[38px] lg:(px-[128px] mt-[80px])">
     <div class="text-[22px] font-bold lg:text-[48px]">
       Новости
     </div>

@@ -5,7 +5,7 @@ const menu = ref(false)
 </script>
 
 <template>
-  <header class="fixed w-full top-0 z-2 bg-[#fff] h-[60px] lg:h-[88px] overflow-hidden" :class="{ 'menu_shadow': !menu, 'h-[60px]': !menu, 'h-[80vh]': menu }">
+  <header class="fixed w-full top-0 z-2 bg-[#fff] h-[60px] lg:h-[88px] overflow-hidden" :class="{ 'menu_shadow': !menu, 'h-[60px]': !menu, 'h-[500px]': menu }">
     <div class="container mx-auto px-[24px] h-[60px] lg:px-[30px] lg:h-[88px] flex items-center justify-between">
       <div class="lg:ml-[33px]">
         <img class="w-[53.5px] h-[30px] lg:h-[40px] lg:w-[80px]" src="@/assets/img/logo.png">

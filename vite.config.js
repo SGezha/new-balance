@@ -13,6 +13,7 @@ export default defineConfig(({ command, mode }) => {
   console.log('🦕 vite.config.js/defineConfig', command, mode)
 
   return {
+    base: './',
     resolve: {
       alias: {
         '@/': `${path.resolve(__dirname, 'src')}/`,

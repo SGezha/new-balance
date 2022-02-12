@@ -1,12 +1,17 @@
 <script setup>
-import HelloWorld from '@/components/HelloWorld.vue'
+import HomeSlider from '../components/Home/HomeSlider.vue'
+import HomeNews from '../components/Home/HomeNews.vue'
+import HomeArticle from '../components/Home/HomeArticle.vue'
+import HomeCatalog from '../components/Home/HomeCatalog.vue'
+import AppFooter from '../components/App/AppFooter.vue'
 </script>
 
 <template>
   <main class="relative">
-    <div class="container mx-auto pt-[10px] px-[16px] text-center">
-      <img class="block mx-auto" alt="Vue logo" src="@/assets/logo.png">
-      <HelloWorld msg="Hello Vue 3 + Vite" />
-    </div>
+    <HomeSlider />
+    <HomeNews />
+    <HomeArticle />
+    <HomeCatalog />
+    <AppFooter />
   </main>
 </template>
